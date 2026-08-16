@@ -14,16 +14,16 @@ from pathlib import Path
 
 
 SOURCE_NOTEBOOKS = {
-    "01_Data_Audit_Spatial_Framework.ipynb": "01_data_audit_spatial_framework.ipynb",
-    "03_GreenStreet_POI_Preparation.ipynb": "03_greenstreet_poi_preparation.ipynb",
-    "04_Source_Reconciliation_and_Indicator_Build.ipynb": "04_source_reconciliation_and_indicator_build.ipynb",
-    "06_Mapping_and_Spatial_Analysis.ipynb": "05_mapping_and_spatial_analysis.ipynb",
-    "08_MSOA_Origin_Exposure_Analysis.ipynb": "06_msoa_origin_exposure_analysis.ipynb",
-    "09_Source_Disagreement_and_H1_Model_Refinement.ipynb": "07_source_reconciliation_and_objective1_models.ipynb",
-    "10_H1_Destination_Robustness.ipynb": "08_objective1_destination_robustness.ipynb",
-    "11_GreenStreet_Historical_POI_Integration.ipynb": "09_greenstreet_historical_poi_integration.ipynb",
-    "13_RQ2_Office_Stock_Adjustment_and_Retail_Change.ipynb": "10_objective2_office_stock_adjustment.ipynb",
-    "14_RQ3_Retail_Adjustment_Pathways.ipynb": "11_objective2_retail_adjustment_pathways.ipynb",
+    "01_Data_Audit_Spatial_Framework.ipynb": "01_Data_Audit_Spatial_Framework.ipynb",
+    "03_GreenStreet_POI_Preparation.ipynb": "02_GreenStreet_POI_Preparation.ipynb",
+    "04_Source_Reconciliation_and_Indicator_Build.ipynb": "03_Source_Reconciliation_and_Indicator_Build.ipynb",
+    "06_Mapping_and_Spatial_Analysis.ipynb": "04_Mapping_and_Spatial_Analysis.ipynb",
+    "08_MSOA_Origin_Exposure_Analysis.ipynb": "05_MSOA_Origin_Exposure_Analysis.ipynb",
+    "09_Source_Disagreement_and_H1_Model_Refinement.ipynb": "06_Source_Reconciliation_and_Objective1_Refinement.ipynb",
+    "10_H1_Destination_Robustness.ipynb": "07_Objective1_Destination_Robustness.ipynb",
+    "11_GreenStreet_Historical_POI_Integration.ipynb": "08_GreenStreet_Historical_POI_Integration.ipynb",
+    "13_RQ2_Office_Stock_Adjustment_and_Retail_Change.ipynb": "09_Objective2_Office_Stock_Adjustment.ipynb",
+    "14_RQ3_Retail_Adjustment_Pathways.ipynb": "10_Objective2_Retail_Adjustment_Pathways.ipynb",
 }
 
 PUBLIC_NOTE = [
