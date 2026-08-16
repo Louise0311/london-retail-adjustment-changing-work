@@ -4,7 +4,7 @@ Code and documentation for an MSc Urban Spatial Science dissertation examining h
 
 ## What this repository contains
 
-This repository contains the reproducible analysis logic, documentation, and a clean sequence of Jupyter notebooks. It does not duplicate the large public source files or distribute any safeguarded Green Street data, derived data, figures, model outputs, or downloadable geographic extracts.
+This repository contains the reproducible analysis logic, documentation, a clean sequence of Jupyter notebooks, and a small public-data package. The public-data package includes the TfL station files used to construct the commuter-demand measure, the study boundary files, and an OpenLocal-only MSOA-year retail-indicator table. It does not distribute Green Street data, Green Street-derived data, figures, model outputs, or downloadable extracts based on safeguarded data.
 
 The study has two objectives:
 
@@ -13,7 +13,7 @@ The study has two objectives:
 
 ## Data access
 
-OpenLocal is openly licensed and can be obtained from its official service; its large source files are not copied here. Green Street data are commercially safeguarded and are not included in this repository in any form. Researchers who wish to reproduce Green Street elements of the analysis should request authorised academic access through the Geographic Data Service (GeoDS). See [data/README.md](data/README.md) and [docs/data_access.md](docs/data_access.md).
+OpenLocal is openly licensed. The repository provides an OpenLocal-only annual MSOA indicator table, while the full property-level source should be obtained from the official service. Green Street data are commercially safeguarded and are not included in this repository in any form. Researchers who wish to reproduce Green Street elements of the analysis should request authorised academic access through the Geographic Data Service (GeoDS). See [data/README.md](data/README.md) and [docs/data_access.md](docs/data_access.md).
 
 ## Running the analysis
 
@@ -30,7 +30,7 @@ The notebooks are published with outputs cleared so that no restricted findings 
 notebooks/  Cleaned analysis notebooks
 config/     Example local-path configuration and file manifest
 docs/       Workflow and data-access notes
-data/       No bundled data; schema and access documentation only
+data/       Public TfL, boundary and OpenLocal-only indicator data; access notes
 ```
 
 ## Citation

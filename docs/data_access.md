@@ -8,8 +8,8 @@ The repository retains code structure and field-level documentation so that auth
 
 ## OpenLocal and public sources
 
-OpenLocal is openly licensed and intended for research use. TfL, ONS, and boundary data are public sources. Users remain responsible for checking current licences, documentation, and access terms before downloading or redistributing any source data.
+OpenLocal is openly licensed and intended for research use. TfL, ONS, and boundary data are public sources. This repository includes small public copies of the TfL station files and boundary files used in the analysis, plus an OpenLocal-only MSOA-year indicator table. It does not include the large property-level OpenLocal source or the full ONS origin-destination file. Users remain responsible for checking current licences, documentation, and access terms before downloading or redistributing any source data.
 
 ## Public repository policy
 
-OpenLocal, TfL, ONS, and boundary files may be obtained from their official public sources, subject to their current licence terms. The repository intentionally does not duplicate their large source files. Do not add Green Street records, processed Green Street extracts, derived aggregates, figures or model outputs based on Green Street data. Do not add local configuration files, source links carrying access tokens, or personal information.
+OpenLocal, TfL, ONS, and boundary files may be obtained from their official public sources, subject to their current licence terms. The repository includes only small public files required to illustrate the workflow. Do not add Green Street records, processed Green Street extracts, derived aggregates, figures or model outputs based on Green Street data. Do not add local configuration files, source links carrying access tokens, or personal information.

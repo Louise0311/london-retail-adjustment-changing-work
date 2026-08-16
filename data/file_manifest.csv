@@ -1,0 +1,10 @@
+path,dataset,geography,period,description,access
+public/tfl/AnnualisedEntryExit_2019.csv,TfL annualised station activity,Station,2019,Public station activity used as the pre-pandemic weekday-pattern baseline,Included
+public/tfl/AC2023_AnnualisedEntryExit.csv,TfL annualised station activity,Station,2023,Public station activity used in post-pandemic comparison,Included
+public/tfl/AC2024_AnnualisedEntryExit_Public.csv,TfL annualised station activity,Station,2024,Public station activity used in post-pandemic comparison,Included
+public/tfl/AC2025_AnnualisedEntryExit_public.csv,TfL annualised station activity,Station,2025,Public station activity used in post-pandemic comparison,Included
+public/boundaries/London_Office_Markets_V1.geojson,London office-market polygons,Polygon,Static,Public office-submarket geometry used to define the five core submarkets,Included
+public/boundaries/Underground_Stations.geojson,London Underground station points,Point,Static,Public station geometry used in spatial matching,Included
+public/openlocal/openlocal_msoa_annual_retail_indicators_2019_2025.csv,OpenLocal annual retail indicators,MSOA,2019-2025,OpenLocal-only annual retail unit count floorspace rateable value and occupation-based vacancy proxy,Included
+external,ONS Census origin-destination commuting flows,MSOA to MSOA,2021 Census,Public flow data used to construct residential origin exposure,Download from official ONS release
+restricted,Green Street retail data,Property and aggregate geographies,2019-2025,Commercially safeguarded consumer-facing retail data,Authorised academic access through GeoDS only

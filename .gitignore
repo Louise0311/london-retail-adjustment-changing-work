@@ -1,7 +1,4 @@
-# Data and restricted analytical material
-data/*
-!data/README.md
-!data/file_manifest.example.csv
+# Restricted analytical material
 outputs/
 figures/
 results/
@@ -15,6 +12,13 @@ results/
 *.shx
 *.dbf
 *.zip
+
+# Explicitly published public data and documentation
+!data/README.md
+!data/file_manifest.example.csv
+!data/file_manifest.csv
+!data/public/
+!data/public/**
 
 # Notebook and Python artefacts
 .ipynb_checkpoints/

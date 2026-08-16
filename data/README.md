@@ -1,13 +1,27 @@
-# Data access and schemas
+# Public data, access and schemas
 
-No data files are bundled with this repository. OpenLocal is openly licensed, but the full source files are large and should be obtained directly from the official service. Green Street data, including derived or aggregated material, must not be added to this repository.
+This directory contains a small, directly usable public-data package. It is intended to make the public components of the workflow inspectable without distributing multi-gigabyte source files. The file catalogue is available in [file_manifest.csv](file_manifest.csv); [file_manifest.example.csv](file_manifest.example.csv) lists the fields expected for the full local workflow.
+
+## Included public data
+
+| Folder | Contents | Use in this study |
+|---|---|---|
+| `public/tfl/` | Four annualised TfL station activity files for 2019 and 2023-2025 | Construction of the weekday commuter-demand shock score |
+| `public/boundaries/` | London office-market polygons and station point geometry | Study-area definition and spatial matching |
+| `public/openlocal/` | An OpenLocal-only MSOA-year retail-indicator table for 2019-2025 | Public administrative-property indicators used in the residential analysis |
+
+The OpenLocal table is a processed, openly licensed data product. It contains no Green Street fields, no Green Street-derived variables, no tenant or address data, and no commuter-flow exposure fields. Its full property-level source is large and should be obtained from the official OpenLocal service when needed.
+
+## Sources not distributed here
+
+Green Street data, including raw records, processed extracts, aggregates, figures and model outputs derived from those data, must not be added to this repository. The full ONS commuting-flow file is also not duplicated because of its size; it should be obtained from the official ONS release.
 
 | Source | Role in the analysis | Access |
 |---|---|---|
-| TfL annualised station entry/exit data | Constructs the weekday commuter-demand shock score | Public TfL data |
+| TfL annualised station entry/exit data | Constructs the weekday commuter-demand shock score | Public copies included in `public/tfl/` |
 | ONS Census origin-destination data | Links workplace MSOAs to residential-origin MSOAs | Public ONS data |
-| Office-market and administrative boundaries | Spatial matching and five office-submarket framework | Public boundary sources |
-| OpenLocal commercial property data | Administrative retail and office stock, floorspace, value and occupation measures | Openly licensed; obtain from the official OpenLocal service |
+| Office-market and station boundaries | Spatial matching and five office-submarket framework | Public copies included in `public/boundaries/` |
+| OpenLocal commercial property data | Administrative retail and office stock, floorspace, value and occupation measures | Openly licensed; public MSOA indicators included, full source obtained from the official service |
 | Green Street retail data | Consumer-facing active stock, vacancy, long-term vacancy, turnover and net formation | Commercially safeguarded; request authorised academic access through GeoDS |
 
-The expected local filenames and required fields are listed in [file_manifest.example.csv](file_manifest.example.csv). These are file-schema notes only, not data extracts.
+The expected local filenames and required fields are listed in [file_manifest.example.csv](file_manifest.example.csv). These are file-schema notes, not data extracts.
