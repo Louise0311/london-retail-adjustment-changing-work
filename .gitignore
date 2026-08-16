@@ -1,0 +1,33 @@
+# Data and restricted analytical material
+data/*
+!data/README.md
+!data/file_manifest.example.csv
+outputs/
+figures/
+results/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.geojson
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.zip
+
+# Notebook and Python artefacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local configuration and editor files
+config/paths.yml
+.env
+.venv/
+venv/
+.vscode/
+.DS_Store
+Thumbs.db

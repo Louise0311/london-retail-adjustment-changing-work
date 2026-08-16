@@ -1,0 +1,7 @@
+# Copy this file to paths.yml. Do not commit paths.yml.
+# All paths are local to the authorised research environment.
+
+workspace_dir: "C:/path/to/authorised/project-workspace"
+
+# The notebooks use DISSERTATION_WORKSPACE when it is set. Point it to a local
+# workspace that mirrors the data structure expected by the notebooks.

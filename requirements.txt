@@ -1,0 +1,15 @@
+jupyterlab
+ipykernel
+numpy
+pandas
+pyarrow
+geopandas
+shapely
+matplotlib
+seaborn
+scipy
+scikit-learn
+statsmodels
+libpysal
+esda
+pyyaml
