@@ -19,6 +19,12 @@ results/
 !data/file_manifest.csv
 !data/public/
 !data/public/**
+!data/derived/
+!data/derived/README.md
+!data/derived/tfl_all_station_commuter_shock.csv
+!data/derived/tfl_all_station_commuter_shock.geojson
+!data/derived/tfl_top100_commuter_shock_stations.csv
+!data/derived/tfl_top100_commuter_shock_stations.geojson
 
 # Notebook and Python artefacts
 .ipynb_checkpoints/
