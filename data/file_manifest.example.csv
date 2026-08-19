@@ -1,7 +1,7 @@
 dataset,required_fields,access_note
 TfL station activity,station_name year weekday_group entries_exits,Public source
-ONS MSOA commuting flows,origin_msoa destination_msoa flow,Public source
-OpenLocal property records,uarn category_group total_floor_area rateable_value occupation_state period,Openly licensed source
+ONS MSOA commuting flows,origin_msoa destination_msoa flow,Complete compressed source included in data/public/ons
+OpenLocal property records,uarn category_group total_floor_area rateable_value occupation_state period,Full source not included; obtain from https://openlocal.uk/ and save as data/external/openlocal/openlocal_property_level.parquet or set OPENLOCAL_PROPERTY_FILE
 Green Street vacancy series,geography year number_unit rate_vacant rate_vacant_lt,Authorised safeguarded access only
 Green Street tenant-premises history,premises_id tenant_id tenant_status premises_status category subcategory latitude longitude postcode date_create date_close,Authorised safeguarded access only
 Office submarket boundaries,market geometry,Public boundary source

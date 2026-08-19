@@ -15,6 +15,8 @@ results/
 
 # Explicitly published public data and documentation
 !data/README.md
+!data/external/
+!data/external/README.md
 !data/file_manifest.example.csv
 !data/file_manifest.csv
 !data/public/
@@ -25,6 +27,11 @@ results/
 !data/derived/tfl_all_station_commuter_shock.geojson
 !data/derived/tfl_top100_commuter_shock_stations.csv
 !data/derived/tfl_top100_commuter_shock_stations.geojson
+!data/derived/objective1_workplace_openlocal_msoa_year.csv
+!data/derived/objective1_workplace_openlocal_change_panel.csv
+!data/derived/objective1_selected_workplace_stations.csv
+!data/derived/objective1_selected_workplace_msoa_targets.csv
+!data/derived/objective1_residential_msoa_exposure.csv
 
 # Notebook and Python artefacts
 .ipynb_checkpoints/

@@ -5,3 +5,13 @@ workspace_dir: "C:/path/to/authorised/project-workspace"
 
 # The notebooks use DISSERTATION_WORKSPACE when it is set. Point it to a local
 # workspace that mirrors the data structure expected by the notebooks.
+
+# Included public inputs are relative to the cloned repository.
+ons_msoa_flows: "data/public/ons/ODWP01EW_MSOA.csv.gz"
+openlocal_retail_annual: "data/public/openlocal/openlocal_msoa_annual_retail_indicators_2019_2025.csv"
+openlocal_office_annual: "data/public/openlocal/openlocal_msoa_annual_office_indicators_2019_2025.csv"
+
+# Obtain these separately for full record-level and safeguarded reproduction.
+openlocal_property_source: "data/external/openlocal/openlocal_property_level.parquet"
+greenstreet_vacancy_source: "C:/path/to/authorised/greenstreet-vacancy.csv"
+greenstreet_history_source: "C:/path/to/authorised/greenstreet-tenant-premises-history.csv"

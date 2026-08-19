@@ -1,0 +1,49 @@
+clean_name,cumulative_collapse_score,LAD24CD,LAD24NM,Origin_LAD_1_Name,Origin_LAD_2_Name,Origin_LAD_3_Name,Origin_LAD_1_Code,Origin_LAD_2_Code,Origin_LAD_3_Code,nearest_core_submarket,distance_to_core_submarket_m,inside_core_submarket
+Bank and Monument,1.8416603746637972,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,City,0.0,True
+Chancery Lane,1.6857185790724372,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,Tech Belt & Midtown,0.0,True
+Moorgate,1.6244158453195423,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,City,0.0,True
+Cannon Street,1.5731067407412522,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,City,0.0,True
+Mansion House,1.553902013666619,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,City,0.0,True
+Waterloo,1.4315517350248768,E09000022,Lambeth,Southwark,Croydon,Wandsworth,E09000028,E09000008,E09000032,Southbank,0.0,True
+Liverpool Street,1.34480403051862,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,City,0.0,True
+St Paul's,1.3208740979984648,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,City,0.0,True
+Old Street,1.2959670993184824,E09000019,Islington,Hackney,Haringey,Enfield,E09000012,E09000014,E09000010,Tech Belt & Midtown,0.0,True
+Covent Garden,1.262024810466499,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Blackfriars,1.2541226309301898,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,City,0.0,True
+Southwark,1.2266717859202751,E09000028,Southwark,Lewisham,Lambeth,Greenwich,E09000023,E09000022,E09000011,Southbank,0.0,True
+Oxford Circus,1.2187334540893644,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Charing Cross,1.2181101901337943,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Farringdon,1.1921750370701276,E09000019,Islington,Hackney,Haringey,Enfield,E09000012,E09000014,E09000010,Tech Belt & Midtown,0.0,True
+Holborn,1.1894986144098292,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,Tech Belt & Midtown,0.0,True
+Marylebone,1.1646428622376988,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Embankment,1.1426591652940412,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Green Park,1.0844849593001142,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Mornington Crescent,1.072621706537498,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,Tech Belt & Midtown,0.0,True
+Leicester Square,1.0663617391052174,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Aldgate,1.045872523020759,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,City,0.0,True
+Tottenham Court Road,1.044410611222173,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,West End,0.0,True
+London Bridge,1.042048189551371,E09000028,Southwark,Lewisham,Lambeth,Greenwich,E09000023,E09000022,E09000011,Southbank,0.0,True
+Bond Street,1.037602718923191,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Temple,1.0216826103765206,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,Tech Belt & Midtown,0.0,True
+Canary Wharf,0.9982937670249769,E09000030,Tower Hamlets,Newham,Redbridge,Hackney,E09000025,E09000026,E09000012,Canary Wharf,0.0,True
+Barbican,0.9901771660619948,E09000001,City of London,Tower Hamlets,Southwark,Newham,E09000030,E09000028,E09000025,Tech Belt & Midtown,0.0,True
+Chalk Farm,0.9851989169031028,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,Tech Belt & Midtown,0.0,True
+Warren Street,0.9571710863264232,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,West End,0.0,True
+Piccadilly Circus,0.9476382954718486,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Great Portland Street,0.9457976636811568,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Borough,0.940692113588485,E09000028,Southwark,Lewisham,Lambeth,Greenwich,E09000023,E09000022,E09000011,Southbank,0.0,True
+Goodge Street,0.893447343641608,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,West End,0.0,True
+Victoria,0.8812788705680517,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Pimlico,0.8793443582706166,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+King's Cross St Pancras,0.8514210742487138,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,Tech Belt & Midtown,0.0,True
+Sloane Square,0.814758575763068,E09000020,Kensington and Chelsea,Hammersmith and Fulham,Wandsworth,Brent,E09000013,E09000032,E09000005,West End,0.0,True
+Aldgate East,0.8029169843683173,E09000030,Tower Hamlets,Newham,Redbridge,Hackney,E09000025,E09000026,E09000012,Tech Belt & Midtown,0.0,True
+Vauxhall,0.7688644335428899,E09000022,Lambeth,Southwark,Croydon,Wandsworth,E09000028,E09000008,E09000032,Southbank,0.0,True
+Knightsbridge,0.7264594836856804,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Euston,0.6998690058934541,E09000007,Camden,Barnet,Islington,Haringey,E09000003,E09000019,E09000014,Tech Belt & Midtown,0.0,True
+Bethnal Green,0.6969406603244341,E09000030,Tower Hamlets,Newham,Redbridge,Hackney,E09000025,E09000026,E09000012,Tech Belt & Midtown,157.59525877203168,False
+Hyde Park Corner,0.6672316482261778,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Westminster,0.6622250863086924,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Regent's Park,0.6606511284848398,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Marble Arch,0.647435711988158,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,0.0,True
+Warwick Avenue,0.6262284477462899,E09000033,Westminster,Lambeth,Brent,Southwark,E09000022,E09000005,E09000028,West End,205.99095798306786,False
