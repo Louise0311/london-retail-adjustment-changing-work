@@ -2,7 +2,7 @@
 
 The public notebooks retain the logic used in the dissertation but have cleared outputs and configurable local paths. Run them only after acquiring authorised data and setting `config/paths.yml`.
 
-1. `01_Data_Audit_Spatial_Framework.ipynb`: harmonise the four public TfL annualised station files, construct the 2023-2025 commuter-demand shock, rank the Top-100 stations, attach station geometry, and write the public derived tables used downstream.
+1. `01_Data_Audit_Spatial_Framework.ipynb`: audit where every dataset enters the workflow; then harmonise the four public TfL annualised station files, construct the 2023-2025 commuter-demand shock, rank the Top-100 stations, attach station geometry, and write the public derived tables used downstream.
 2. `02_GreenStreet_POI_Preparation.ipynb`: prepare safeguarded Green Street POI history within the authorised local environment.
 3. `03_Source_Reconciliation_and_Indicator_Build.ipynb`: construct annual indicators and prepare comparable MSOA-level measures.
 4. `04_Mapping_and_Spatial_Analysis.ipynb`: construct the core workplace and residential-origin spatial framework.
